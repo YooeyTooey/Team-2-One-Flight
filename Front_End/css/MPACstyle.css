@@ -1,0 +1,46 @@
+* {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.airline-list {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.airline-list h2 {
+  margin-bottom: 10px;
+}
+
+.airline-list-container {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+}
+
+.airline-list li {
+  margin-bottom: 8px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease;
+}
+
+.airline-list li:hover {
+  background-color: #eaeaea;
+}
