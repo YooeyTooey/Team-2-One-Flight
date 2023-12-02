@@ -24,9 +24,17 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.form label {
+.form label[for="su"] {
     font-weight: bold;
-    font-size: x-large;
+    font-size: 55px;;
+    position: relative;
+    background-color: transparent;
+    background: rgb(238, 235, 235);
+}
+
+.form label {
+    font-weight: 300;
+    font-size: 22px;
     position: relative;
     background-color: transparent;
     background: rgb(238, 235, 235);
@@ -175,7 +183,7 @@
 .subtn {
     width: 200px;
     height: 40px;
-    background: #1b54a5;
+    background: #8FA17A;
     border: none;
     font-size: 18px;
     border-radius: 20px;
@@ -187,7 +195,7 @@
 }
 
 .subtn:hover {
-    background: #11376b;
+    background: #687559;
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
 }
