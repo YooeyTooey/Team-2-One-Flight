@@ -1,0 +1,49 @@
+* {
+  font-family: 'San Francisco', sans-serif; /* Using San Francisco font */
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.form {
+  width: 330px; /* Adjusted width */
+  max-width: 330px;
+  min-width: 300px;
+  height: auto;
+  background: #1C1920; /* Background color changed */
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  padding: 60px;
+  margin-left: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Added shadow */
+}
+
+.form input {
+  width: 320px;
+  height: 35px;
+  background: #D9D9D9; /* Textbox color changed */
+  border: none;
+  margin-top: 20px; /* Adjusted margin-top */
+  font-size: 15px;
+  letter-spacing: 1px;
+  padding: 10px;
+  font-family: 'Outfit', sans-serif;
+  border-radius: 12px; /* Added rounded edge */
+}
+
+.form input:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: #7a7a7a;
+  font-family: 'Outfit', sans-serif;
+  padding: 10px;
+}

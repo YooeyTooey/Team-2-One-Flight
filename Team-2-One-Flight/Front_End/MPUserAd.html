@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>User Administration - Maintenance Page</title>
+  <link rel="stylesheet" href="css/MPUAstyle.css">
+</head>
+<body>
+  <h1>User Administration - Maintenance Page</h1>
+  
+  <div class="form">
+    <h2>Login</h2>
+    <label for="userRole">Select User Role:</label>
+    <select id="userRole">
+      <option value="guest">Guest</option>
+      <option value="admin">Admin</option>
+    </select>
+    <input type="text" placeholder="Username"> <!-- Example input field -->
+    <input type="password" placeholder="Password"> <!-- Example input field -->
+    <button id="activateBtn">Activate User</button>
+    <button id="deactivateBtn">Deactivate User</button>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
