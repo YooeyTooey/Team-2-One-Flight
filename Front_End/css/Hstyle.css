@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #091d38;
+    background-image: url('../pics/airplane.jpg');
+    background-position-x: center ;
+    background-position-y: 20%;
+}
+
+
+.form {
+    font-family: 'Poppins', sans-serif;
+    max-width: 550px;
+    min-width: 550px;
+    height: auto;
+    background: rgb(235, 235, 238); 
+    position: absolute;
+    top: 55%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 60px;
+    margin-left: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form label[for="su"] {
+    font-size: 50px;
+}
+
+.form label {
+    font-weight: bold;
+    font-size: 23px;
+    position: relative;
+    background-color: transparent;
+    background: rgb(238, 235, 235);
+}
+
+.form input {
+    font-family: 'Poppins', sans-serif;
+    width: 320px;
+    height: 35px;
+    background: #D9D9D9;
+    border: none;
+    margin-top: 20px;
+    margin-left: 150px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #7a7a7a;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+}
+
+.email {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    background-color: transparent;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: rgb(238, 235, 235);
+}
+
+.email label {
+    color: #000000;
+    top: 65px;
+    font-weight: 300;
+}
+
+.pw {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    background-color: transparent;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: rgb(238, 235, 235);
+}
+
+.pw label {
+    color: #000000;
+    top: 65px;
+    font-weight: 300;
+}
+
+.bd {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    background-color: transparent;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: rgb(238, 235, 235);
+}
+
+.bd label {
+    color: #000000;
+    top: 65px;
+    font-weight: 300;
+}
+
+.n {
+   background-color: transparent;
+   width: 500px;
+   margin-left: 0px;
+   background: rgb(238, 235, 235);
+}
+
+.n input{
+    font-family: 'Poppins', sans-serif;
+    width: 160px;
+    height: 35px;
+    background: #D9D9D9;
+    border: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border-radius: 12px;
+    margin-top: 9%;
+    margin-left: 5%;
+}
+
+.n label {
+    color: #000000;
+    font-weight: 300;
+}
+
+.mn {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    background-color: transparent;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: rgb(238, 235, 235);
+}
+
+.mn label {
+    color: #000000;
+    top: 65px;
+    font-weight: 300;
+}
+
+.psd {
+    background-color: transparent;
+    width: 550px;
+    height: 200px;
+    background: rgb(238, 235, 235);
+    margin-top: 10%;
+}
+
+.psd input {
+    font-family: 'Poppins', sans-serif;
+    width: 180px;
+    height: 35px;
+    background: #D9D9D9;
+    border: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border-radius: 12px;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+.psd label {
+    color: #000000;
+    font-weight: bold;
+}
+
+
+.subtn {
+    width: 200px;
+    height: 40px;
+    background: #8FA17A;
+    border: none;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.4s ease;
+    transform: translate(90%, -50%);
+}
+
+.subtn:hover {
+    background: #687559;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}

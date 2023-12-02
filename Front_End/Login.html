@@ -1,31 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>One Flight - Login</title>
-    <link rel="stylesheet" href="css/style.css">
-
+    <title> Login - One Flight </title>
+    <link rel="stylesheet" href="css/Lstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
-<div class="container">
-    <div class="form-box">
-        <h1>Login</h1>
-        <form>
-            <div class="input-group">
-                <div class="input-field">
-                    <label> Email </label>
-                    <input type="email" placeholder="Email">
-                </div>
-                
-                <div class="input-field">
-                    <label> Password </label>
-                    <input type="password" placeholder="Password">
-                </div>
-                <p>Don't have an account? <a href="./UserSignUp.html">Create and sign up here.</a></p>
-                <input type="Submit" value="Log In">
-            </div>
-        </form>
 
+<body>
+    <form action = "Homepage.html"  method="GET"> 
+    <div class = "form" id="form">
+        
+        <label for="w"> Welcome! </label>
+        <p> One Flight Guest Login </p>
+        <br>
+        
+        <div class="email">  
+            <input type="email" id="email" name="email" placeholder="Email" required>
+        </div>
+
+        <div class="pw"> 
+            <input type="password" id="password" name="password" placeholder="Password" required> 
+        </div>
+    
+        <button class="loginbtn" type="submit" value ="submit"> Log in </button>
+
+        <div class="info">
+            <p> Not a member? Join <a href="UserSignUp.html"> One Flight Guest </a> today </p>
+        </div>
+
+    </div>
+
+    </form>
+
+        <script src=" "></script>
 </body>
 
 </html>
+
