@@ -18,14 +18,88 @@
         <a class="active" href="Homepage.html"> Home </a>
     </div>
 
+    <div class="column">
+    <form action = " "  method="GET"> 
+        <div class = "form" id="form">
+            
+            <div class="trty">  
+                <label> Travel Type </label>
+                <select id="travel-type" name="travel-type" class="travel-type-dd">
+                    <option value="RT" selected> Round Trip </option>
+                    <option value="OW"> One way </option>
+                </select>
+            </div>
+    
+            <div class="pral"> 
+                <label> Preferred Airline </label>
+                <select id="pref-airline" name="pref-airline" class="pref-airline-dd">
+                    <option value="ALL"> All </option>
+                    <option value="BR"> BR </option>
+                    <option value="PR"> PR </option>
+                    <option value="CX"> CX </option>
+                    <option value="VN"> VN </option>
+                    <option value="KE"> KE </option>
+                    <option value="NH"> NH </option>
+                    <option value="OZ"> OZ </option>
+                    <option value="ZP"> ZP </option>
+                    <option value="2P"> 2P </option>
+                    <option value="JX"> JX </option>
+                </select>
+            </div>
+            
+            <div class="ori"> 
+                <label> Origin </label>
+                <select id="origin" name="origin" class="origin-dd">
+                    <option value="">  </option>
 
+                </select>
+            </div>
 
+            <div class="des"> 
+                <label> Destination </label>
+                <select id="destination" name="destination" class="destination-dd">
+                    <option value="">  </option>
 
-    <div>
+                </select>
+            </div>
 
+            <div class="depdate">
+                <label> Departure </label>
+                <input type="date" id="departure" name="departure">
+            </div>
+
+            <div class="retdate">
+                <label> Return </label>
+                <input type="date" id="return" name="return">
+            </div>
+
+            <div class="passc">
+                <label> Passenger Count </label>
+                <input type="number" id="passcount" name="passcount">
+            </div>
+
+            <div class="fr">
+                <label> Filter </label>
+                <select id="filter" name="filter" class="filter-dd">
+                    <option value="" disabled selected> </option>
+                    <option value="LOW"> Lowest Price First </option>
+                    <option value="DNACF"> Do not allow connecting flight </option>
+                </select>
+            </div>
+
+            <button class="sfbtn" type="submit" value ="submit"> Search Flights </button>
+        
+        </div>
+        </form>
+
+        <div class="txt">
+            <p> Book now </p>
+        </div>
     </div>
 
-        <script src=" "></script>
+        <script src=" ">
+
+        </script>
 </body>
 
 </html>

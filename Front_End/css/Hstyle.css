@@ -22,28 +22,42 @@
     transition: 0.3s ease;
   }
   
-  /* Change the color of links on hover */
   .navigation a:hover {
-    background-color: #ddd;
+    background: rgb(238, 235, 235);
     color: black;
   }
   
-  /* Add a color to the active/current link */
   .navigation a.active {
     background-color: #B59B91;
     color: white;
   }
 
+.txt {
+    float: right;
+    margin-right: -12%;
+    height: 10%;
+    width: 50%;
+    margin-top: 15%;
+}
+
+.txt p{
+    font-size: 100px;
+    font-weight: bold;
+    color: rgb(238, 235, 235);
+    font-family: 'Poppins', sans-serif;
+    margin-left: 2%;
+}
+
 
 .form {
     font-family: 'Poppins', sans-serif;
-    max-width: 550px;
-    min-width: 550px;
-    height: auto;
+    max-width: 700px;
+    min-width: 700px;
+    height: 530px;
     background: rgb(235, 235, 238); 
     position: absolute;
-    margin-top: 20%;
-    margin-left: %;
+    margin-top: 5%;
+    margin-left: 3%;
     border-radius: 10px;
     padding: 60px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -85,36 +99,303 @@
     padding: 10px;
 }
 
+
+
+
+.trty {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: rgb(238, 235, 235);
+}
+
+.trty label {
+    color: #000000;
+    font-weight: 300;
+}
+
 .travel-type-dd {
     color: #000000;
     font-family: 'Poppins', sans-serif;
     font-size: large;
-    width: 25%;
+    width: 30%;
     background-color: transparent;
     margin-top: 5px;
+    margin-left: 26%;
     margin-bottom: 5px;
     border-radius: 5px;
     background: rgb(238, 235, 235);
 }
 
-.email {
+.travel-type-dd option {
+    background: #726460;
+    color: #ffffff; 
+}
+
+.travel-type-dd option:checked {
+    background: #8FA17A;
+    color: #fff; 
+    font-weight: bold; 
+}
+
+
+
+
+.pral {
     color: #000000;
     font-family: 'Poppins', sans-serif;
-    font-size: large;
     background-color: transparent;
     margin-top: 5px;
     margin-bottom: 5px;
     background: rgb(238, 235, 235);
 }
 
-.email label {
+.pral label {
     color: #000000;
-    top: 65px;
     font-weight: 300;
 }
 
+.pref-airline-dd {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    width: 30%;
+    background-color: transparent;
+    margin-top: 5px;
+    margin-left: 19%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background: rgb(238, 235, 235);
+}
 
-.subtn {
+.pref-airline-dd option {
+    background: #726460;
+    color: #ffffff; 
+}
+
+.pref-airline-dd option:checked {
+    background: #8FA17A;
+    color: #fff; 
+    font-weight: bold; 
+}
+
+
+
+.ori {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: rgb(238, 235, 235);
+}
+
+.ori label {
+    color: #000000;
+    font-weight: 300;
+}
+
+.origin-dd {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    width: 30%;
+    background-color: transparent;
+    margin-top: 5px;
+    margin-left: 35%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background: rgb(238, 235, 235);
+}
+
+.origin-dd option {
+    background: #726460;
+    color: #ffffff; 
+}
+
+.origin-dd option:checked {
+    background: #8FA17A;
+    color: #fff; 
+    font-weight: bold; 
+}
+
+
+
+
+.des {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: rgb(238, 235, 235);
+}
+
+.des label {
+    color: #000000;
+    font-weight: 300;
+}
+
+.destination-dd {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    width: 30%;
+    background-color: transparent;
+    margin-top: 5px;
+    margin-left: 26%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background: rgb(238, 235, 235);
+}
+
+.destination-dd option {
+    background: #726460;
+    color: #ffffff; 
+}
+
+.destination-dd option:checked {
+    background: #8FA17A;
+    color: #fff; 
+    font-weight: bold; 
+}
+
+
+
+.depdate {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: rgb(238, 235, 235);
+}
+
+.depdate label {
+    color: #000000;
+    font-weight: 300;
+}
+
+.departure {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    width: 30%;
+    background-color: transparent;
+    margin-top: 5px;
+    margin-left: 18%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background: rgb(238, 235, 235);
+}
+
+
+
+
+.retdate {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: rgb(238, 235, 235);
+}
+
+.retdate label {
+    color: #000000;
+    font-weight: 300;
+}
+
+.return {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    width: 30%;
+    background-color: transparent;
+    margin-top: 5px;
+    margin-left: 25%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background: rgb(238, 235, 235);
+}
+
+
+
+
+.passc {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: rgb(238, 235, 235);
+}
+
+.passc label {
+    color: #000000;
+    font-weight: 300;
+}
+
+.passcount {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    width: 30%;
+    background-color: transparent;
+    margin-top: 5px;
+    margin-left: 15%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background: rgb(238, 235, 235);
+}
+
+
+
+
+.fr {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: rgb(238, 235, 235);
+}
+
+.fr label {
+    color: #000000;
+    font-weight: 300;
+}
+
+.filter-dd {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    width: 30%;
+    background-color: transparent;
+    margin-top: 5px;
+    margin-left: 36%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background: rgb(238, 235, 235);
+}
+
+.filter-dd option {
+    background: #726460;
+    color: #ffffff; 
+}
+
+.filter-dd option:checked {
+    background: #8FA17A;
+    color: #fff; 
+    font-weight: bold; 
+}
+
+
+
+.sfbtn {
+    margin-top: 7%;
     width: 200px;
     height: 40px;
     background: #8FA17A;
@@ -128,10 +409,11 @@
     transform: translate(90%, -50%);
 }
 
-.subtn:hover {
+.sfbtn:hover {
     background: #687559;
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
 }
+
 
 
