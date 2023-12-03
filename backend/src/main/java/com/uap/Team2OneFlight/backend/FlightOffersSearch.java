@@ -53,4 +53,11 @@ public class FlightOffersSearch {
     System.out.println(airlines[0]);
    
   }
+  
+  public String getPrice(FlightOfferSearch search) {
+	  String rawPrice = search.getPrice().getTotal();
+	  String currency = search.getPrice().getCurrency();
+	  
+	  return rawPrice + currency;
+  }
 }
