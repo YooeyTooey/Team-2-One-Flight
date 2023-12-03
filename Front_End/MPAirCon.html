@@ -4,8 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title> Airline Configuration - Maintenance Page </title>
-  <link rel="stylesheet" href="css/MPUAstyle.css">
-  <link rel="stylesheet" href="css/Hstyle.css">
+  <link rel="stylesheet" href="css/MPACstyle.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap"
@@ -15,7 +14,7 @@
 
 <body>
 
-  <div class="navigation">
+  <div class="nav">
     <a class="active" href="MPAirCon.html"> Airline Configuration </a>
     <a href="MPUserAd.html"> User Administration </a>
   </div>
@@ -28,48 +27,47 @@
     <ul class="airline-list-container">
 
     </ul>
-    <button type="button" id="addbtn" name="addbtn"> Add </button>
-    <button type="button" id="removebtn" name="removebtn"> Remove </button>
+
+    <button class ="addbtn" type="button" id="addbtn" name="addbtn"> Add </button>
+    <button class="removebtn" type="button" id="removebtn" name="removebtn"> Remove </button>
   </div>
 
 
   <div class="sync">
-    <div class="bform">
       <input type="checkbox" id="BR" name="BR">
-      <label for="BR"> BR </label> <br>
+      <label for="BR"> BR </label> 
 
       <input type="checkbox" id="PR" name="PR">
-      <label for="PR"> PR </label> <br>
+      <label for="PR"> PR </label> 
 
       <input type="checkbox" id="CX" name="CX">
-      <label for="CX"> CX </label> <br>
+      <label for="CX"> CX </label> 
 
       <input type="checkbox" id="VN" name="VN">
-      <label for="VN"> VN </label> <br>
+      <label for="VN"> VN </label> 
 
       <input type="checkbox" id="KE" name="KE">
-      <label for="KE"> KE </label> <br>
+      <label for="KE"> KE </label> 
 
       <input type="checkbox" id="NH" name="NH">
-      <label for="NH"> NH </label> <br>
+      <label for="NH"> NH </label> 
 
       <input type="checkbox" id="OZ" name="OZ">
-      <label for="OZ"> OZ </label> <br>
+      <label for="OZ"> OZ </label> 
 
       <input type="checkbox" id="ZP" name="ZP">
-      <label for="ZP"> ZP </label> <br>
+      <label for="ZP"> ZP </label> 
 
       <input type="checkbox" id="2P" name="2P">
-      <label for="2P"> 2P </label> <br>
+      <label for="2P"> 2P </label>
 
       <input type="checkbox" id="JX" name="JX">
-      <label for="JX"> JX </label> <br>
+      <label for="JX"> JX </label> 
 
-      <input type="submit" value="Enter">
+      <button class="enter" type="button" id="enter" name="enter"> Enter </button>
     </div>
 
-
-    <button type="button" id="syncbtn" name="syncbtn"> Sync Airline with Database </button>
+    <button class="syncbtn" type="button" id="syncbtn" name="syncbtn"> Sync Airline with Database </button>
   </div>
 
   <div class="pb">
@@ -101,6 +99,9 @@
         <td> <input type="text"> </td>
       </tr>
     </table>
+
+    <button class="appbtn" type="button" id="appbtn" name="appbtn"> Apply Changes </button>
+
   </div>
 
   <script src="../Front_End/js/MPACscript.js"></script>

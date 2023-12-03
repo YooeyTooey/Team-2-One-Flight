@@ -2,17 +2,40 @@
   font-family: 'Poppins', sans-serif; 
   padding: 20px;
   text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #726460;
+}
+
+.nav {
+  background-color: #726460; 
+  overflow: hidden;
+}
+
+.nav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  transition: 0.3s ease;
+}
+
+.nav a:hover {
+  background: rgb(238, 235, 235);
+  color: black;
+}
+
+.nav a.active {
+  background-color: #B59B91;
+  color: white;
 }
 
 h1 {
   margin-top: 5%;
   color: #D9D9D9;
-}
-
-h2 {
-  margin-bottom: 3%;
-  color: #000000;
-  background-color: transparent;
 }
 
 
@@ -23,7 +46,7 @@ h2 {
 }
 
 .airline-list {
-  background-color: #eaeaea;
+
   width: auto;
   height: auto;
 }
@@ -37,16 +60,171 @@ h2 {
   list-style-type: none;
   padding: 0;
   text-align: left;
+  color: #f2f2f2;
 }
 
 .airline-list li {
   margin-bottom: 8px;
   padding: 6px 10px;
   border-radius: 4px;
-  background-color: #f9f9f9;
+  background-color: transparent;
   transition: background-color 0.3s ease;
 }
 
 .airline-list li:hover {
-  background-color: #eaeaea;
+  background-color: #B59B91;
+}
+
+
+
+
+.addbtn {
+  width: 200px;
+  height: 40px;
+  background: #8FA17A;
+  border: none;
+  font-size: 18px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  transition: 0.4s ease;
+}
+
+.addbtn:hover {
+  background: #687559;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.removebtn {
+  width: 200px;
+  height: 40px;
+  background: #B36A64;
+  border: none;
+  font-size: 18px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  transition: 0.4s ease;
+}
+
+.removebtn:hover {
+  background: #794844;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.enter {
+  width: 100px;
+  height: 40px;
+  background: #4650aa;
+  border: none;
+  font-size: 18px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  transition: 0.4s ease;
+  margin-left: 3%;
+}
+
+.enter:hover {
+  background: #2d336d;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.sync {
+  left: 5%;
+  margin-top: 5%;
+  color: #f2f2f2;
+  word-spacing: 20px;
+}
+
+.syncbtn {
+  width: 300px;
+  height: 40px;
+  background: #8FA17A;
+  border: none;
+  font-size: 18px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  transition: 0.4s ease;
+  margin-top: 3%;
+}
+
+.syncbtn:hover {
+  background: #687559;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.pb {
+  margin-top: 10%;
+  color: #D9D9D9;
+}
+
+.pb table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px; 
+}
+
+.pb th, .pb td {
+ 
+  padding: 8px;
+  text-align: center;
+}
+
+.pb th {
+  background-color: #cecbcb;
+  color: #000000;
+}
+
+.pb caption {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.pb input {
+  font-family: 'Poppins', sans-serif;
+  width: 230px;
+  height: 35px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  padding: 10px;
+  border-radius: 12px;
+  border-style: double;
+  border-color: #B59B91;
+}
+
+::placeholder {
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif; 
+  padding: 10px;
+}
+
+.appbtn {
+  width: 200px;
+  height: 40px;
+  background: #8FA17A;
+  border: none;
+  font-size: 18px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  transition: 0.4s ease;
+  margin-top: 5%;
+}
+
+.appbtn:hover {
+  background: #687559;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
 }
