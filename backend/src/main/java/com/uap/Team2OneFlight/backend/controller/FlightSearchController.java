@@ -30,6 +30,7 @@ public class FlightSearchController {
             FlightOfferSearch[] flightOffersSearches = amadeus.shopping.flightOffersSearch.get(
                     Params.with("originLocationCode", flightSearchForm.getOriginLocationCode())
                             .and("destinationLocationCode", flightSearchForm.getDestinationLocationCode())
+                            .and("carrierCode", flightSearchForm. )
                             .and("departureDate", flightSearchForm.getDepartureDate())
                             .and("returnDate", flightSearchForm.getReturnDate())
                             .and("adults", flightSearchForm.getAdults())
@@ -40,7 +41,7 @@ public class FlightSearchController {
                 System.exit(-1);
             }
 
-            model.addAttribute("flightOffers", flightOffersSearches);
+            model.addAttribute("flightOffers", flightOffersSearches[0].getType());
         } catch (ResponseException e) {
             // Handle the exception, for now, we'll print the error to the console
             e.printStackTrace();

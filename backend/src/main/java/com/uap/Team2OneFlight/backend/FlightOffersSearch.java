@@ -1,10 +1,14 @@
 package com.uap.Team2OneFlight.backend;
 
+import java.util.*;
+
 import com.amadeus.Amadeus;
 import com.amadeus.Params;
 import com.amadeus.exceptions.ResponseException;
+import com.amadeus.referencedata.Locations;
 import com.amadeus.resources.FlightOfferSearch;
-
+import com.amadeus.resources.Location;
+import com.amadeus.resources.Airline;
 public class FlightOffersSearch {
 
   public static void main(String[] args) throws ResponseException {
@@ -26,6 +30,27 @@ public class FlightOffersSearch {
         System.exit(-1);
     }
 
-    System.out.println(flightOffersSearches[0]);
+    System.out.println(Arrays.toString(flightOffersSearches[0].getValidatingAirlineCodes()));
+    
+    Location[] locations = amadeus.referenceData.locations.get(Params
+      .with("keyword", "LON")
+      .and("subType", Locations.ANY));
+
+    if(locations[0].getResponse().getStatusCode() != 200) {
+        System.out.println("Wrong status code: " + locations[0].getResponse().getStatusCode());
+        System.exit(-1);
+    }
+    System.out.println(locations[0]);
+
+    Airline[] airlines = amadeus.referenceData.airlines.get(Params
+      .with("airlineCodes", "BA"));
+
+    if (airlines[0].getResponse().getStatusCode() != 200) {
+        System.out.println("Wrong status code: " + airlines[0].getResponse().getStatusCode());
+        System.exit(-1);
+    }
+
+    System.out.println(airlines[0]);
+   
   }
 }

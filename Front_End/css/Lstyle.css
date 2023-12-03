@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    background-image: url('../pics/airplane.jpg');
     background-color: #726460;
     background-position-x: center ;
     background-position-y: 20%;
@@ -15,7 +16,8 @@
     background: rgb(235, 235, 238); 
     position: absolute;
     top: 45%;
-    transform: translate(50%, -50%);
+    left: 60%;
+    transform: translate(-50%, -50%);
     border-radius: 10px;
     padding: 60px;
     margin-left: 20%;
@@ -128,7 +130,7 @@
     font-size: medium;
     font-weight: 200;
     margin-top: 5%;
-    margin-left: 13%;
+    margin-left: 5%;
 }
 
 .info a {
