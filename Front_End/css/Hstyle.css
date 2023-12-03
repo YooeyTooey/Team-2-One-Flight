@@ -53,10 +53,10 @@
     font-family: 'Poppins', sans-serif;
     max-width: 700px;
     min-width: 700px;
-    height: 530px;
+    height: 650px;
     background: rgb(235, 235, 238);
     position: absolute;
-    margin-top: 5%;
+    margin-top: 2%;
     margin-left: 3%;
     border-radius: 10px;
     padding: 60px;
@@ -141,8 +141,6 @@
 }
 
 
-
-
 .pral {
     color: #000000;
     font-family: 'Poppins', sans-serif;
@@ -195,33 +193,8 @@
 .ori label {
     color: #000000;
     font-weight: 300;
+    margin-right: 13%;
 }
-
-.origin-dd {
-    color: #000000;
-    font-family: 'Poppins', sans-serif;
-    font-size: large;
-    width: 30%;
-    background-color: transparent;
-    margin-top: 5px;
-    margin-left: 35%;
-    margin-bottom: 5px;
-    border-radius: 5px;
-    background: rgb(238, 235, 235);
-}
-
-.origin-dd option {
-    background: #726460;
-    color: #ffffff;
-}
-
-.origin-dd option:checked {
-    background: #8FA17A;
-    color: #fff;
-    font-weight: bold;
-}
-
-
 
 
 .des {
@@ -236,31 +209,9 @@
 .des label {
     color: #000000;
     font-weight: 300;
+    margin-right: 4%;
 }
 
-.destination-dd {
-    color: #000000;
-    font-family: 'Poppins', sans-serif;
-    font-size: large;
-    width: 30%;
-    background-color: transparent;
-    margin-top: 5px;
-    margin-left: 26%;
-    margin-bottom: 5px;
-    border-radius: 5px;
-    background: rgb(238, 235, 235);
-}
-
-.destination-dd option {
-    background: #726460;
-    color: #ffffff;
-}
-
-.destination-dd option:checked {
-    background: #8FA17A;
-    color: #fff;
-    font-weight: bold;
-}
 
 
 
@@ -276,6 +227,7 @@
 .depdate label {
     color: #000000;
     font-weight: 300;
+    margin-right: 6%;
 }
 
 .departure {
@@ -306,6 +258,7 @@
 .retdate label {
     color: #000000;
     font-weight: 300;
+    margin-right: 12%;
 }
 
 .return {
@@ -336,6 +289,7 @@
 .passc label {
     color: #000000;
     font-weight: 300;
+    margin-right: -5%;
 }
 
 .passcount {
@@ -358,14 +312,15 @@
     color: #000000;
     font-family: 'Poppins', sans-serif;
     background-color: transparent;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     background: rgb(238, 235, 235);
 }
 
 .fr label {
     color: #000000;
     font-weight: 300;
+    margin-right: 1%;
 }
 
 .filter-dd {
