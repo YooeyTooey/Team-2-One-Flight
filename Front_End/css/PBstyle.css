@@ -1,99 +1,118 @@
-body {
-    font-family: sans-serif;
+body, h1, h2, p, ul, li,
+table {
     margin: 0;
-    padding: 20px;
-  }
-  
-  .login-section,
-  .reference-search-section,
-  .flightdeets {
-    padding: 20px;
-    margin-bottom: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-  }
-  
-  h2 {
-    margin-bottom: 10px;
-  }
-  
-  #user-bookings {
-    list-style: none;
     padding: 0;
-    margin: 0;
-  }
-  
-  #user-bookings li {
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
-    cursor: pointer;
-  }
-  
-  #booking-details {
-    display: none;
-    margin-top: 20px;
-  }
-  
-  #booking-details h3,
-  #booking-details ul {
-    margin-bottom: 10px;
-  }
-  
-  #booking-details ul li {
-    display: inline-block;
-    width: 50%;
-    vertical-align: top;
-  }
-  
-  @media only screen and (max-width: 768px) {
-    #booking-details ul li {
-      width: 100%;
-    }
-  }
-  
-  .flightdeets table {
-    border-collapse: collapse;
-    width: 100%;
-  }
-  
-  table {
-    border-collapse: collapse;
-    width: 100%;
 }
 
-  th, td {
-    text-align: left;
-    padding: 8px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(221, 221, 221);
-    border-image: initial;
-  }
-  
-  th {
-    font-weight: bold;
-  }
-  
-  /* Additional styles for login section, reference search section, and booking details */
-  
-  .login-section p {
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #726460;
+}
+
+.navigation {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navigation {
+    background-color: #726460;
+    overflow: hidden;
+}
+
+.navigation a {
+    font-family: 'Poppins', sans-serif;
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.3s ease;
+}
+
+.navigation a:hover {
+    background: rgb(238, 235, 235);
+    color: black;
+}
+
+.navigation a.active {
+    background-color: #B59B91;
+    color: white;
+}
+
+
+.reference-search-section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#booking-search {
     margin-bottom: 20px;
-  }
-  
-  #booking-search {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  
-  #booking-search label {
-    margin-bottom: 5px;
-  }
-  
-  #booking-details h3 {
-    font-size: 1.2em;
 }
-  
 
-  
-  
+#booking-details {
+    margin-top: 20px;
+}
+
+.flightdeets {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.flightdeets table {
+    margin: 0 auto;
+    width: 80%;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: middle;
+    color: rgb(0, 0, 0);
+
+}
+
+th:first-child,
+td:first-child {
+    width: 200px;
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+    width: 200px;
+}
+
+#reference-number {
+    width: 200px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-right: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+}
+
+
+#booking-search button {
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 20px; 
+    background-color: #8FA17A; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+
+#booking-search button:hover {
+    background-color: #687559;
+}
