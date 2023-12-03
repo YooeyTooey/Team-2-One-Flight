@@ -69,21 +69,18 @@ button:hover {
     background-color: #687559;
 }
 
-.checkbox-container {
+.user-details {
+    display: flex;
+    flex-direction: column;
+  }
 
+.cb-container {
     display: flex;
     align-items: center;
-    margin-top: 10px;
-    margin-left: 0;
 }
 
-.checkbox-container input[type="checkbox"] {
-    margin-right: 0px;
-    margin-left: 0px;
-}
-
-.checkbox-option label {
-    margin-left: 0%;
+.cb-container input[type="checkbox"] {
+    margin-right: -230px;
 }
 
 
