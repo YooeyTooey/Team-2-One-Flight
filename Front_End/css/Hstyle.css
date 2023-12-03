@@ -2,16 +2,16 @@
     margin: 0;
     padding: 0;
     background-color: #726460;
-    background-position-x: center ;
+    background-position-x: center;
     background-position-y: 20%;
 }
 
 .navigation {
-    background-color: #726460; 
+    background-color: #726460;
     overflow: hidden;
-  }
-  
-  .navigation a {
+}
+
+.navigation a {
     float: right;
     color: #f2f2f2;
     text-align: center;
@@ -20,17 +20,17 @@
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     transition: 0.3s ease;
-  }
-  
-  .navigation a:hover {
+}
+
+.navigation a:hover {
     background: rgb(238, 235, 235);
     color: black;
-  }
-  
-  .navigation a.active {
+}
+
+.navigation a.active {
     background-color: #B59B91;
     color: white;
-  }
+}
 
 .txt {
     float: right;
@@ -40,7 +40,7 @@
     margin-top: 15%;
 }
 
-.txt p{
+.txt p {
     font-size: 100px;
     font-weight: bold;
     color: rgb(238, 235, 235);
@@ -54,7 +54,7 @@
     max-width: 700px;
     min-width: 700px;
     height: 530px;
-    background: rgb(235, 235, 238); 
+    background: rgb(235, 235, 238);
     position: absolute;
     margin-top: 5%;
     margin-left: 3%;
@@ -131,13 +131,13 @@
 
 .travel-type-dd option {
     background: #726460;
-    color: #ffffff; 
+    color: #ffffff;
 }
 
 .travel-type-dd option:checked {
     background: #8FA17A;
-    color: #fff; 
-    font-weight: bold; 
+    color: #fff;
+    font-weight: bold;
 }
 
 
@@ -172,13 +172,13 @@
 
 .pref-airline-dd option {
     background: #726460;
-    color: #ffffff; 
+    color: #ffffff;
 }
 
 .pref-airline-dd option:checked {
     background: #8FA17A;
-    color: #fff; 
-    font-weight: bold; 
+    color: #fff;
+    font-weight: bold;
 }
 
 
@@ -212,13 +212,13 @@
 
 .origin-dd option {
     background: #726460;
-    color: #ffffff; 
+    color: #ffffff;
 }
 
 .origin-dd option:checked {
     background: #8FA17A;
-    color: #fff; 
-    font-weight: bold; 
+    color: #fff;
+    font-weight: bold;
 }
 
 
@@ -253,13 +253,13 @@
 
 .destination-dd option {
     background: #726460;
-    color: #ffffff; 
+    color: #ffffff;
 }
 
 .destination-dd option:checked {
     background: #8FA17A;
-    color: #fff; 
-    font-weight: bold; 
+    color: #fff;
+    font-weight: bold;
 }
 
 
@@ -383,13 +383,13 @@
 
 .filter-dd option {
     background: #726460;
-    color: #ffffff; 
+    color: #ffffff;
 }
 
 .filter-dd option:checked {
     background: #8FA17A;
-    color: #fff; 
-    font-weight: bold; 
+    color: #fff;
+    font-weight: bold;
 }
 
 
@@ -414,6 +414,3 @@
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
 }
-
-
-
