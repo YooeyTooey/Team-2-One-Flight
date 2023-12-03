@@ -3,6 +3,7 @@ package com.uap.Team2OneFlight.backend.models;
 public class FlightSearchForm {
 	private String originLocationCode;
 	private String destinationLocationCode;
+	private String carrierCode;
 	private String departureDate;
 	private String returnDate;
 	private int adults;
@@ -44,5 +45,11 @@ public class FlightSearchForm {
 	}
 	public void setMax(int max) {
 		this.max = max;
+	}
+	public String getCarrierCode() {
+		return carrierCode;
+	}
+	public void setSetCarrierCode(String carrierCode) {
+		this.carrierCode = carrierCode;
 	}
 }

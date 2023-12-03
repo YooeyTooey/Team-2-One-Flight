@@ -30,7 +30,7 @@ public class FlightSearchController {
             FlightOfferSearch[] flightOffersSearches = amadeus.shopping.flightOffersSearch.get(
                     Params.with("originLocationCode", flightSearchForm.getOriginLocationCode())
                             .and("destinationLocationCode", flightSearchForm.getDestinationLocationCode())
-                            .and("carrierCode", flightSearchForm. )
+                            .and("carrierCode", flightSearchForm.getCarrierCode())
                             .and("departureDate", flightSearchForm.getDepartureDate())
                             .and("returnDate", flightSearchForm.getReturnDate())
                             .and("adults", flightSearchForm.getAdults())
