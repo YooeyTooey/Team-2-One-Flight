@@ -1,6 +1,9 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <title>User Administration - Maintenance Page</title>
+  <title> Airline Configuration - Maintenance Page </title>
   <link rel="stylesheet" href="css/MPUAstyle.css">
   <link rel="stylesheet" href="css/Hstyle.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,29 +16,94 @@
 <body>
 
   <div class="navigation">
-    <a href="MPAirCon.html"> Airline Configuration </a>
-    <a class="active" href="MPUserAd.html"> User Administration </a>
+    <a class="active" href="MPAirCon.html"> Airline Configuration </a>
+    <a href="MPUserAd.html"> User Administration </a>
   </div>
 
 
-  <h1> User Administration - Maintenance Page </h1>
-  
+  <h1> Airline Configuration - Maintenance Page </h1>
+
   <div class="airline-list">
     <h2>Supported Airlines</h2>
     <ul class="airline-list-container">
-      <li>BR - Name 1</li>
-      <li>PR - Name 2</li>
-      <li>CX - Name 3</li>
-      <li>VN - Name 4</li>
-      <li>KE - Name 5</li>
-      <li>NH - Name 6</li>
-      <li>OZ - Name 7</li>
-      <li>ZP - Name 8</li>
-      <li>2P - Name 9</li>
-      <li>JX - Name 10</li>
+
     </ul>
+    <button type="button" id="addbtn" name="addbtn"> Add </button>
+    <button type="button" id="removebtn" name="removebtn"> Remove </button>
   </div>
 
-  <script src="AirlineConfigurationScript.js"></script>
+
+  <div class="sync">
+    <div class="bform">
+      <input type="checkbox" id="BR" name="BR">
+      <label for="BR"> BR </label> <br>
+
+      <input type="checkbox" id="PR" name="PR">
+      <label for="PR"> PR </label> <br>
+
+      <input type="checkbox" id="CX" name="CX">
+      <label for="CX"> CX </label> <br>
+
+      <input type="checkbox" id="VN" name="VN">
+      <label for="VN"> VN </label> <br>
+
+      <input type="checkbox" id="KE" name="KE">
+      <label for="KE"> KE </label> <br>
+
+      <input type="checkbox" id="NH" name="NH">
+      <label for="NH"> NH </label> <br>
+
+      <input type="checkbox" id="OZ" name="OZ">
+      <label for="OZ"> OZ </label> <br>
+
+      <input type="checkbox" id="ZP" name="ZP">
+      <label for="ZP"> ZP </label> <br>
+
+      <input type="checkbox" id="2P" name="2P">
+      <label for="2P"> 2P </label> <br>
+
+      <input type="checkbox" id="JX" name="JX">
+      <label for="JX"> JX </label> <br>
+
+      <input type="submit" value="Enter">
+    </div>
+
+
+    <button type="button" id="syncbtn" name="syncbtn"> Sync Airline with Database </button>
+  </div>
+
+  <div class="pb">
+    <table>
+      <caption>Price Breakdown</caption>
+      <tr>
+        <th>Charge Name</th>
+        <th>Mark Up Type</th>
+        <th>Hidden Tag</th>
+      </tr>
+      <tr>
+        <td> <input type="text" placeholder="One Flight Commission"> </td>
+        <td> <input type="text" id="markupof" placeholder="Perentage or Fixed"> </td>
+        <td> <input type="text" id="htof"> </td>
+      </tr>
+      <tr>
+        <td> <input type="text" placeholder="Booking Fee"> </td>
+        <td> <input type="text" id="markupbf" placeholder="Perentage or Fixed"> </td>
+        <td> <input type="text"> </td>
+      </tr>
+      <tr>
+        <td> <input type="text" placeholder="Tax"> </td>
+        <td> <input type="text" id="markuptax" placeholder="Perentage or Fixed"> </td>
+        <td> <input type="text"> </td>
+      </tr>
+      <tr>
+        <td> <input type="text"> </td>
+        <td> <input type="text" id="markuptax" placeholder="Perentage or Fixed"> </td>
+        <td> <input type="text"> </td>
+      </tr>
+    </table>
+  </div>
+
+  <script src="../Front_End/js/MPACscript.js"></script>
 </body>
+
 </html>
