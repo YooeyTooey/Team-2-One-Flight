@@ -1,0 +1,44 @@
+<!-- flightSearch.html -->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Flight Search</title>
+</head>
+<body>
+    <script>
+        function submitForm() {
+            // Add any additional validation logic here if needed
+
+            // Redirect to the flightSearchResults page
+            window.location.href = 'flightSearchResults.html';
+
+            // Return false to prevent the form from submitting in the default way
+            return false;
+        }
+    </script>
+
+    <h2>Flight Search Form</h2>
+    <form action="/flight-search" method="post" th:object="${flightSearchForm}">
+        <label for="originLocationCode">Origin Location Code:</label>
+        <input type="text" id="originLocationCode" name="originLocationCode" th:field="*{originLocationCode}">
+        
+        <label for="destinationLocationCode">Destination Location Code:</label>
+        <input type="text" id="destinationLocationCode" name="destinationLocationCode" th:field="*{destinationLocationCode}">
+        
+        <label for="departureDate">Departure Date:</label>
+        <input type="text" id="departureDate" name="departureDate" th:field="*{departureDate}">
+        
+        <label for="returnDate">Return Date:</label>
+        <input type="text" id="returnDate" name="returnDate" th:field="*{returnDate}">
+        
+        <label for="adults">Number of Adults:</label>
+        <input type="text" id="adults" name="adults" th:field="*{adults}">
+
+        <label for="adults">Max:</label>
+        <input type="text" id="max" name="max" th:field="*{max}">
+        
+        <button type="submit" onclick="submitForm()">Search</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!-- flightSearchResults.html -->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Flight Search Results</title>
+</head>
+<body>
+    <h2>Flight Search Results</h2>
+    <!-- Display results here -->
+    <div th:if="${error != null}">
+        <p th:text="${error}"></p>
+    </div>
+    <div th:if="${flightOffers != null}">
+        <!-- Loop through and display flight offers -->
+        <div th:each="offer : ${flightOffers}">
+            <!-- Display offer details -->
+            <p th:text="${offer.toString()}"></p>
+        </div>
+    </div>
+</body>
+</html>
