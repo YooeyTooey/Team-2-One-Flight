@@ -26,21 +26,19 @@ h2 {
     margin-bottom: 20px;
 }
 
-/* Style the radio buttons */
 .user-type-selection input[type="radio"] {
-    display: none; /* Hide the default radio button */
+    display: none;
 }
 
 .user-type-selection label {
-    padding: 10px 20px; /* Adjust padding for the labels */
+    padding: 10px 20px;
     background-color: #ddd;
     border: 1px solid #ccc;
     border-radius: 10px;
     cursor: pointer;
 }
 
-/* Style the selected radio button label */
-.user-type-selection input[type="radio"]:checked + label {
+.user-type-selection input[type="radio"]:checked+label {
     background-color: #745b54;
     color: white;
 }
@@ -51,7 +49,8 @@ label {
 }
 
 
-input, button {
+input,
+button {
     padding: 10px;
     margin-bottom: 15px;
     width: 100%;
@@ -70,15 +69,35 @@ button:hover {
     background-color: #687559;
 }
 
+.checkbox-container {
+
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 0;
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.checkbox-option label {
+    margin-left: 0%;
+}
 
 
-/* Additional styles for checkbox and disabled fields */
-#booking-for-someone:checked + label {
+
+#booking-for-someone label {
+    align-items: left;
+    size: 5px;
+}
+
+#booking-for-someone:checked+label {
     color: #8a2be2;
 }
 
-#booking-for-someone:checked ~ .traveler-details input {
-    /* Enable input fields when "I am booking for someone" is checked */
+#booking-for-someone:checked~.traveler-details input {
     pointer-events: auto;
     background-color: #fff;
     border: 1px solid #ddd;
